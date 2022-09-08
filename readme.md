@@ -69,10 +69,11 @@ Used to send callback to ZuckZuckLand.
 
 **Auth required** : YES
 
-**Headers
-**Code** : authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwic2NwIjoicGFydG5lciIsImF1ZCI6bnVsbCwiaWF0IjoxNjYyNjU3MzQ5LCJleHAiOjE2NjI2NjA5NDksImp0aSI6IjBhOWQ4ZDhjLWI4NjctNDJiNC1iNzAzLWMwOGIwMGM5OTU4ZiJ9.7-9xFfFHaPa5_4tpWDYnAtY6oxOZOfGBnszkoJ03geY
+**Headers**
 
-****Token will be expried so please refresh / create new token when it expried
+**Authorization** : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwic2NwIjoicGFydG5lciIsImF1ZCI6bnVsbCwiaWF0IjoxNjYyNjU3MzQ5LCJleHAiOjE2NjI2NjA5NDksImp0aSI6IjBhOWQ4ZDhjLWI4NjctNDJiNC1iNzAzLWMwOGIwMGM5OTU4ZiJ9.7-9xFfFHaPa5_4tpWDYnAtY6oxOZOfGBnszkoJ03geY
+
+###Token will be expried so please refresh / create new token when it expried
 
 **Data constraints**
 
@@ -85,6 +86,7 @@ Used to send callback to ZuckZuckLand.
 }
 ```
 ***Status value: paid or cancel**
+
 ## Success Response
 
 **Code** : `200 OK`
