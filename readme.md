@@ -62,7 +62,7 @@ Used to collect a Token for a registered User.
 ]
 ```
 # Payout Request
-Used to send callback to ZuckZuckLand.
+Used to send request withdraw to Epixel.
 **URL** : `https://api-staging.zuckzuck.land/payout_requests`
 
 **Method** : `POST`
@@ -90,7 +90,7 @@ Used to send callback to ZuckZuckLand.
 **Code** : `200 OK`
 
 # Payout Request
-Used to send callback to ZuckZuckLand.
+Used to cancel request withdraw to Epixel.
 **URL** : `https://api-staging.zuckzuck.land/payout_requests/{id}/cancel`
 
 **Method** : `POST`
@@ -104,14 +104,6 @@ Used to send callback to ZuckZuckLand.
 ###Token will be expried so please refresh / create new token when it expried
 
 **Data constraints**
-
-```json
-{
-  "payout_request": {
-    "trans_id": "12345"
-  }
-}
-```
 
 ## Success Response
 
