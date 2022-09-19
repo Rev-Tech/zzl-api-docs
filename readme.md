@@ -61,6 +61,63 @@ Used to collect a Token for a registered User.
   }
 ]
 ```
+# Payout Request
+Used to send callback to ZuckZuckLand.
+**URL** : `https://api-staging.zuckzuck.land/payout_requests`
+
+**Method** : `POST`
+
+**Auth required** : YES
+
+**Headers**
+
+**Authorization** : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwic2NwIjoicGFydG5lciIsImF1ZCI6bnVsbCwiaWF0IjoxNjYyNjU3MzQ5LCJleHAiOjE2NjI2NjA5NDksImp0aSI6IjBhOWQ4ZDhjLWI4NjctNDJiNC1iNzAzLWMwOGIwMGM5OTU4ZiJ9.7-9xFfFHaPa5_4tpWDYnAtY6oxOZOfGBnszkoJ03geY
+
+###Token will be expried so please refresh / create new token when it expried
+
+**Data constraints**
+
+```json
+{
+  "payout_request": {
+    "amount": "12345"
+  }
+}
+```
+
+## Success Response
+
+**Code** : `200 OK`
+
+# Payout Request
+Used to send callback to ZuckZuckLand.
+**URL** : `https://api-staging.zuckzuck.land/payout_requests/{id}/cancel`
+
+**Method** : `POST`
+
+**Auth required** : YES
+
+**Headers**
+
+**Authorization** : Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwic2NwIjoicGFydG5lciIsImF1ZCI6bnVsbCwiaWF0IjoxNjYyNjU3MzQ5LCJleHAiOjE2NjI2NjA5NDksImp0aSI6IjBhOWQ4ZDhjLWI4NjctNDJiNC1iNzAzLWMwOGIwMGM5OTU4ZiJ9.7-9xFfFHaPa5_4tpWDYnAtY6oxOZOfGBnszkoJ03geY
+
+###Token will be expried so please refresh / create new token when it expried
+
+**Data constraints**
+
+```json
+{
+  "payout_request": {
+    "trans_id": "12345"
+  }
+}
+```
+
+## Success Response
+
+**Code** : `200 OK`
+
+
 # Hook Payout 
 Used to send callback to ZuckZuckLand.
 **URL** : `https://api-staging.zuckzuck.land/payout_hooks`
