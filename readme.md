@@ -112,19 +112,7 @@ Used to refreshToken
 
 **Condition** : If 'refresh_token' is wrong.
 
-**Code** : `400 BAD REQUEST`
-
-**Content** :
-
-```json
-[
-  {
-    "errors": {
-      "message": "Invalid Email or password."
-    }
-  }
-]
-```
+**Code** : `401 Unauthorize`
 
 
 
