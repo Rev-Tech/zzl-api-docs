@@ -110,7 +110,7 @@ Used to refreshToken
 
 ## Error Response
 
-**Condition** : If 'username' and 'password' combination is wrong.
+**Condition** : If 'refresh_token' is wrong.
 
 **Code** : `400 BAD REQUEST`
 
