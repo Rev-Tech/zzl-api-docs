@@ -135,9 +135,11 @@ Used to send callback to ZuckZuckLand.
 ```json
 {
   "transaction": {
-    "user_id": "12345",
+    "user_id": "12345", (epixel_uid)
     "token": "usdc" (usdc or gkt),
-    "amount": 1234
+    "amount": 1234,
+    "status": 'paid',
+    "trans_id" : 234 (Epixel Transaction ID)
   }
 }
 ```
@@ -145,4 +147,3 @@ Used to send callback to ZuckZuckLand.
 ## Success Response
 
 **Code** : `201 OK`
-
