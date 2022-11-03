@@ -138,7 +138,7 @@ Used to send callback to ZuckZuckLand.
     "user_id": "12345", (epixel_uid)
     "token": "usdc" (usdc or gkt),
     "amount": 1234,
-    "status": 'credit', (credit or debit)
+    "status": '0', (0=credit or 1=debit)
     "trans_id" : 234 (Epixel Transaction ID)
   }
 }
